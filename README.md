@@ -1,5 +1,11 @@
 # docker-compose-parse-server
-* Parse Server docker 全家桶 - 支持nginx/mongodb/parse-server/parse-dashboard/parse_live/portainer all in one docker-compose.yml file.
+* Parse Server docker  -  all in one docker-compose.yml file.
+  * nginx
+  * mongodb
+  * parse-server
+  * parse-dashboard
+  * parse_live
+  * portainer
 * flutter client parse_live url setting:const String keyParseLiveServerUrl = 'http://yourhostip:1337/api/';
 * run docker
 ```shell
@@ -18,5 +24,5 @@ curl -X POST \
 -H "X-Parse-Application-Id: APPLICATION_ID" \
 -H "Content-Type: application/json" \
 -d '{"score":1337,"playerName":"Sean Plott","cheatMode":false}' \
-http://你的服务器 ip/bas/classes/GameScore
+http://host ip/bas/classes/GameScore
 ```
