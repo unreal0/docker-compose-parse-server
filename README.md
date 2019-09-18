@@ -2,6 +2,7 @@
 * Parse Server docker  -  all in one docker-compose.yml file.
   * nginx
   * mongodb
+  * postgres
   * parse-server
   * parse-dashboard
   * parse_live
@@ -15,6 +16,7 @@ $ docker-compose --version
 $ sudo docker-compose up -d 
 $ docker-compose ps
 $ docker-compose down
+$ docker-compose down --volumes
 $ docker-compose restart
 $ docker volume create portainer_data 
 ```
